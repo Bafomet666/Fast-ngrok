@@ -1,7 +1,7 @@
 #!/bin/dash
 # bafomet
 atualizar='\033[1;32m'
-echo "$atualizar Atualizando repositório..."
+echo "$atualizar Обновление репозитория..."
 apt update && upgrade -y
 apt install -y wget
 clear
