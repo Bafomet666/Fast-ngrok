@@ -6,6 +6,7 @@ apt update && upgrade -y
 apt install -y wget
 clear
 k='\033[01;32m'
+R = '\033[31m'
 echo
 echo " Вы хотите установить Ngrok? [Y/n]"
 read opcao
@@ -42,7 +43,7 @@ echo "${k}██╔██╗ ██║██║  ███╗██████�
 echo "${k}██║╚██╗██║██║   ██║██╔══██╗██║   ██║██╔═██╗ ";
 echo "${k}██║ ╚████║╚██████╔╝██║  ██║╚██████╔╝██║  ██╗";
 echo "${k}╚═╝  ╚═══╝ ╚═════╝ ╚═╝  ╚═╝ ╚═════╝ ╚═╝  ╚═╝";
-echo
+echo "${r}                             by Bafomet 2020";
 echo "Пример команды | ngrok http 8080)"
 ;;
 
