@@ -1,11 +1,11 @@
 #!/bin/dash
 # bafomet
-atualizar='[\033[0;35m\]'
+atualizar='\033[1;32m'
 echo "$atualizar Обновление репозитория..."
 apt update && upgrade -y
 apt install -y wget
 clear
-Purple="\[\033[0;35m\]"
+k='\033[01;32m'
 echo
 echo "${k}███─███─████─█───█─█─█─██─██к";
 echo "${k}─█──█───█──█─██─██─█─█──███ ";
