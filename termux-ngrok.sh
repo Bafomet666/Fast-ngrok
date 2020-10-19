@@ -7,7 +7,6 @@ apt install -y wget
 clear
 k='\033[01;32m'
 echo
-echo "${k} Подписываемся https://t.me/hacknocrime ";
 echo
 echo "Вы хотите установить Ngrok? [Y/n]"
 read opcao
