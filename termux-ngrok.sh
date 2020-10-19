@@ -1,12 +1,18 @@
 #!/bin/dash
 # bafomet
 atualizar='\033[1;32m'
-echo "$atualizar Atualizando repositório..."
+echo "$atualizar Обновления репозиториев..."
 apt update && upgrade -y
 apt install -y wget
 clear
 k='\033[01;32m'
 echo
+echo "${k}███─███─████─█───█─█─█─██─██";
+echo "${k}─█──█───█──█─██─██─█─█──███";
+echo "${k}─█──███─████─█─█─█─█─█───█";
+echo "${k}─█──█───█─█──█───█─█─█──███";
+echo "${k}─█──███─█─█──█───█─███─██─██";
+echo "${k} Подписываемся https://t.me/hacknocrime ";
 echo
 echo "Вы хотите установить Ngrok? [Y/n]"
 read opcao
