@@ -6,8 +6,9 @@ apt update && upgrade -y
 apt install -y wget
 clear
 k='\033[01;32m'
-R = '\033[31m'
 echo
+echo "${k}Хакер ";
+echo "${k}Не преступник";
 echo " Вы хотите установить Ngrok? [Y/n]"
 read opcao
 case $opcao in
@@ -31,7 +32,7 @@ x86_64)
     echo " Неизвестная архитектура "
 esac
 
-wget "https://github.com/tchelospy/NgrokTest/blob/master/ngrok-stable-linux-${architectureURL}.zip?raw=true" -O ngrok.zip
+wget "https://github.com/Bafomet666/ngrok.dops/blob/main/ngrok-stable-linux-${architectureURL}.zip?raw=true" -O ngrok.zip
 unzip ngrok.zip
 cat ngrok > /data/data/com.termux/files/usr/bin/ngrok
 chmod 700 /data/data/com.termux/files/usr/bin/ngrok
