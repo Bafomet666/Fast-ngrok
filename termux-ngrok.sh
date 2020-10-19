@@ -18,7 +18,7 @@ read opcao
 case $opcao in
 y)
 echo
-echo " Скачивание Termux-ngrok ..."
+echo " Скачивание Fast-ngrok ..."
 case `dpkg --print-architecture` in
 aarch64)
     architectureURL="arm64" ;;
