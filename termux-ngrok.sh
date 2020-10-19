@@ -1,6 +1,6 @@
 #!/bin/dash
 # bafomet
-atualizar='\033[1;32m'
+atualizar='[\033[0;35m\]'
 echo "$atualizar Обновление репозитория..."
 apt update && upgrade -y
 apt install -y wget
