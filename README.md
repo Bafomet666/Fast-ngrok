@@ -1,6 +1,7 @@
 # Fast-ngrok это быстрая установка ngrok на ваш termux.
 
 # Установка ngrok на Termux
+Перевел на русский и обновил репозитории
 
 apt update && apt upgrade
  
