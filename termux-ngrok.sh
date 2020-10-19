@@ -5,10 +5,14 @@ echo "$atualizar Обновление репозитория..."
 apt update && upgrade -y
 apt install -y wget
 clear
-k='\033[01;32m'
+Purple="\[\033[0;35m\]"
 echo
-echo "${k}Хакер ";
-echo "${k}Не преступник";
+echo "${k}███─███─████─█───█─█─█─██─██к";
+echo "${k}─█──█───█──█─██─██─█─█──███ ";
+echo "${k}─█──███─████─█─█─█─█─█───█";
+echo "${k}─█──█───█─█──█───█─█─█──███ ";
+echo "${k}─█──███─█─█──█───█─███─██─██ ";
+echo "${k} Подписыаемся https://t.me/hacknocrime";
 echo " Вы хотите установить Ngrok? [Y/n]"
 read opcao
 case $opcao in
