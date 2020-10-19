@@ -1,14 +1,14 @@
 #!/bin/dash
 # bafomet
 atualizar='\033[1;32m'
-echo "$atualizar Обновление репозитория..."
+echo "$atualizar Atualizando repositório..."
 apt update && upgrade -y
 apt install -y wget
 clear
 k='\033[01;32m'
 echo
-echo "${k} Подписыаемся https://t.me/hacknocrime";
-echo " Вы хотите установить Ngrok? [Y/n]"
+echo
+echo "Вы хотите установить Ngrok? [Y/n]"
 read opcao
 case $opcao in
 y)
