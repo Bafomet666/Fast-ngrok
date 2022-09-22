@@ -1,7 +1,7 @@
 #!/bin/dash
 # bafomet
 atualizar='\033[1;32m'
-echo "$atualizar Обновления репозиториев..."
+echo "$atualizar Оновлення пакетов..."
 apt update && upgrade -y
 apt install -y wget
 clear
@@ -13,7 +13,7 @@ read opcao
 case $opcao in
 y)
 echo
-echo " Скачивание Fast-ngrok ..."
+echo " Завантаження Fast-ngrok ..."
 case `dpkg --print-architecture` in
 aarch64)
     architectureURL="arm64" ;;
@@ -28,7 +28,7 @@ i*86)
 x86_64)
     architectureURL="amd64" ;;
 *)
-    echo " Неизвестная архитектура "
+    echo " Невідома архіктетура"
 esac
 
 wget "https://github.com/Bafomet666/ngrok.dops/blob/main/ngrok-stable-linux-${architectureURL}.zip?raw=true" -O ngrok.zip
@@ -44,7 +44,7 @@ echo "${k}██║╚██╗██║██║   ██║██╔══█�
 echo "${k}██║ ╚████║╚██████╔╝██║  ██║╚██████╔╝██║  ██╗";
 echo "${k}╚═╝  ╚═══╝ ╚═════╝ ╚═╝  ╚═╝ ╚═════╝ ╚═╝  ╚═╝";
 echo "${r}                             by Bafomet 2020";
-echo "Пример команды | ngrok http 8080)"
+echo "Приклад| ngrok http 8080)"
 ;;
 
 n)
